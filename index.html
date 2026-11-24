@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Mike Glazebrook — Senior Frontend Engineer</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Mike Glazebrook, Senior Frontend Engineer specializing in React, TypeScript, Next.js and AI agents (Claude Code, MCP). Résumé, experience and skills."><link rel="canonical" href="https://glazebro.github.io/"><meta property="og:title" content="Mike Glazebrook — Senior Frontend Engineer"><meta property="og:description" content="React, TypeScript, Next.js and AI agents (Claude Code, MCP). Résumé, experience and skills."><meta property="og:url" content="https://glazebro.github.io/"><meta property="og:type" content="profile"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mike Glazebrook", "jobTitle": "Senior Frontend Engineer", "worksFor": {"@type": "Organization", "name": "ITA Group"}, "homeLocation": {"@type": "Place", "name": "Des Moines, Iowa"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "The University of Iowa"}, "knowsAbout": ["React", "TypeScript", "Next.js", "Frontend development", "Accessibility", "Playwright", "AI agents", "Claude Code", "Model Context Protocol (MCP)", "Multi-agent workflows", "AI code review", "SQL Server", "Azure"], "url": "https://glazebro.github.io/", "sameAs": ["https://www.linkedin.com/in/mikeglazebrook", "https://github.com/glazebro"]}</script>
+<style>
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; }
+a { color: inherit; text-decoration: none; }
+h1, h2, p, ul, dl, dd { margin: 0; }
+ul { padding: 0; list-style: none; }
+li { break-inside: avoid; }
+.job-head, .role-head { break-after: avoid; }
+.job:not(.multi) { break-inside: avoid; }
+.muted { opacity: .72; }
+
+@page { size: Letter; margin: 0.58in 0.7in; }
+:root { --ink:#14161c; --muted:#5d6472; --accent:#4b3fd8; --soft:#efeefe; --rule:#dfe1e7; }
+body { color: var(--ink); font-family: "Avenir Next", "Helvetica Neue", sans-serif; font-size: 10pt; line-height: 1.42; }
+.hd { display: flex; align-items: center; gap: 16pt; }
+.mark { flex: none; width: 54pt; height: 54pt; display: block; }
+h1 { font-weight: 700; font-size: 26pt; letter-spacing: -0.5pt; line-height: 1.05; }
+.tagline { margin-top: 3pt; font-size: 11pt; }
+.tagline strong { font-weight: 600; color: var(--accent); }
+.stack { font-family: Menlo, monospace; font-size: 8.6pt; color: var(--muted); margin-left: 8pt; }
+.stack span + span::before { content: ", "; }
+.contact { margin-top: 5pt; display: flex; flex-wrap: nowrap; gap: 0 12pt; font-family: Menlo, monospace; font-size: 7.4pt; color: var(--muted); white-space: nowrap; }
+.figures { margin-top: 13pt; display: grid; grid-template-columns: repeat(4,1fr); gap: 7pt; }
+.fig { background: var(--soft); border-radius: 6pt; padding: 8pt 10pt; }
+.fig .n { display:block; font-family: Menlo, monospace; font-weight: 700; font-size: 15pt; color: var(--accent); }
+.fig .l { display:block; margin-top: 2pt; font-size: 7.8pt; line-height: 1.3; }
+.sec { padding-top: 13pt; }
+.sec h2 { font-family: Menlo, monospace; font-size: 8.6pt; font-weight: 700; color: var(--accent); margin-bottom: 6pt; text-transform: lowercase; }
+.sec h2::before { content: "// "; color: var(--muted); font-weight: 400; }
+.skills dl { display: grid; grid-template-columns: 1.2in 1fr; row-gap: 3pt; }
+.skills dt { font-weight: 600; }
+.job { display: grid; grid-template-columns: 1.2in 1fr; column-gap: 0; margin-bottom: 9pt; }
+.when { font-family: Menlo, monospace; font-size: 7.4pt; color: var(--muted); padding-top: 2.5pt; white-space: nowrap; }
+.job-head .dates { display: none; }
+.job-head { display: flex; align-items: baseline; gap: 7pt; }
+.co { font-weight: 700; font-size: 10.8pt; }
+.loc { color: var(--muted); font-size: 8.8pt; }
+.role { margin-top: 2pt; }
+.role + .role { margin-top: 6pt; }
+.role-head { display: flex; align-items: baseline; gap: 8pt; }
+.title { font-weight: 600; color: var(--accent); }
+.rdates { font-family: Menlo, monospace; font-size: 7.6pt; color: var(--muted); }
+.role ul { margin-top: 2pt; }
+.role li { padding-left: 12pt; position: relative; margin-bottom: 2.2pt; }
+.role li::before { content: "›"; position: absolute; left: 1pt; top: -0.5pt; color: var(--accent); font-weight: 700; }
+.edu-row { display: flex; gap: 8pt; align-items: baseline; }
+.edu-row .co { font-size: 10.3pt; }
+.edu-row .loc { margin-left: auto; font-family: Menlo, monospace; font-size: 7.9pt; }
+
+@media screen {
+  html { background: #eef0f4; }
+  body { padding: 32px 16px 48px; }
+  .page { max-width: 8.5in; margin: 0 auto; background: #fff; padding: 0.6in 0.7in; border-radius: 6px; box-shadow: 0 1px 3px rgba(20,22,28,.08), 0 8px 24px rgba(20,22,28,.06); }
+  .download { max-width: 8.5in; margin: 0 auto 14px; text-align: right; font-size: 10pt; }
+  .download a { color: #4b3fd8; font-weight: 600; text-decoration: none; }
+  .download a:hover, .download a:focus-visible { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid #4b3fd8; outline-offset: 2px; }
+}
+@media screen and (max-width: 700px) {
+  body { padding: 12px 8px 32px; }
+  .page { padding: 22px 18px; }
+  .hd { flex-wrap: wrap; }
+  .contact { flex-wrap: wrap !important; white-space: normal !important; }
+  .figures { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .page, .page * { min-width: 0; }
+  .page { overflow-wrap: anywhere; }
+  .hd .id { flex: 1 1 100%; }
+  .skills dl, .job { grid-template-columns: 1fr !important; }
+  .when { margin-bottom: 2pt; }
+}
+@media print { .download { display: none; } }
+</style></head><body><p class="download"><a href="resume.pdf">Download PDF</a></p><div class="page">
+<header class="hd">
+  <img class="mark" src="mark.png" alt="">
+  <div class="id">
+    <h1>Mike Glazebrook</h1>
+    <p class="tagline"><strong>Senior Frontend Engineer</strong><span class="stack"><span>React</span><span>TypeScript</span><span>Next.js</span><span>agentic AI development</span></span></p>
+    <ul class="contact"><li>Des Moines, IA (open to relocation)</li><li><a href="https://www.linkedin.com/in/mikeglazebrook">linkedin.com/in/mikeglazebrook</a></li><li><a href="https://github.com/glazebro">github.com/glazebro</a></li></ul>
+  </div>
+</header>
+<div class="figures"><div class="fig"><span class="n">Since 2007</span><span class="l">in design and web development, a developer since 2012</span></div><div class="fig"><span class="n">171/610</span><span class="l">pull requests merged on a new Next.js platform since 03/2026, second most of any contributor</span></div><div class="fig"><span class="n">878</span><span class="l">commits with Claude Code in 8 weeks, work and side projects</span></div><div class="fig"><span class="n">14</span><span class="l">live iOS apps run with AI agents, side projects</span></div></div>
+<section class="sec summary"><h2>Summary</h2><div class="body"><p>Senior Frontend Engineer building a multi-tenant page-builder platform in <b>React, TypeScript and Next.js</b>, using AI agents to reach full-stack: API routes, SQL Server migrations, auth and CI. Runs <b>Claude Code as a multi-agent engineering team</b> with human approval gates, live verification and multi-model code review (Claude, GitHub Copilot, OpenAI Codex). Introduced the team's shared AI review tooling and agent conventions, and writes reusable Claude Code skills, plugins and hooks. A graphic design background (BFA) informs the UI and accessibility work.</p></div></section>
+<section class="sec skills"><h2>Skills</h2><div class="body"><dl><dt>Frontend</dt><dd>React, Next.js, TypeScript, JavaScript, HTML5, CSS3, accessibility, responsive design, Angular</dd><dt>Full-stack</dt><dd>Next.js API routes, SQL Server, Flyway migrations, auth and session handling, API integrations, Azure, CI/CD</dd><dt>Testing</dt><dd>Playwright end-to-end tests, test-first development, AI visual review</dd><dt>AI engineering</dt><dd>Claude Code (skills, plugins, hooks, subagents, scheduled agents), AI agents and multi-agent workflows, large language models (LLMs), Model Context Protocol (MCP), Anthropic API, GitHub Copilot, OpenAI Codex, multi-model code review, prompt engineering</dd><dt>Also</dt><dd>Git/GitHub, Jira, Swift/iOS, Supabase, Vercel, HubSpot, WordPress, PHP, MySQL, Adobe Creative Suite</dd></dl></div></section>
+<section class="sec exp"><h2>Experience</h2><div class="body"><article class="job multi"><div class="when">10/2020 – now</div><div class="what"><div class="job-head"><span class="co">ITA Group</span><span class="loc">Des Moines, IA</span><span class="dates">10/2020 – Present</span></div><div class="role"><div class="role-head"><span class="title">Senior Frontend Engineer</span><span class="rdates">01/2026 – now</span></div><ul><li>Helped build a new multi-tenant React / Next.js / TypeScript page-builder platform from its first commit with Claude Code, GitHub Copilot and OpenAI Codex; build its editor and content blocks with Playwright end-to-end tests and attention to accessibility</li><li>Deliver features end to end with AI agents: Next.js API routes, SQL Server schema and Flyway migrations, auth and sessions, upstream API integrations and CI</li><li>Introduced the team's shared AI code-review tooling and AI-agent conventions (AGENTS.md), used for AI-assisted PR review, dependency upgrades, e2e suites and security reviews</li><li>Built a ticket-to-PR agent pipeline with human approval gates, and scheduled agents for site-health audits and error reporting</li></ul></div><div class="role"><div class="role-head"><span class="title">Front-End Developer</span><span class="rdates">10/2020 – 01/2026</span></div><ul><li>Improved the usability of the company's employee engagement CMS, supporting sales and retention through COVID</li><li>Worked with digital designers to build interactive pages and programs used to win new business</li><li>Streamlined an Angular booking tool that connects travelers to flights for events and incentive travel programs</li><li>Refactored front-end code and JavaScript library calls to improve the security and speed of internal tools; connected user data to pages and tools to personalize the experience</li></ul></div></div></article><article class="job"><div class="when">2025 – now</div><div class="what"><div class="job-head"><span class="co">Independent Developer</span><span class="loc">Side projects</span><span class="dates">2025 – Present</span></div><div class="role"><ul><li>Built a client-portal web app, then <b>14 live iOS apps</b> as a lab for agentic engineering: AI agents handle builds, App Store submission, analytics and growth experiments, and ship one fix across the portfolio (e.g. a refund-causing trial reminder fixed in 8 apps). <span class="muted">Stack: Swift/iOS, Supabase, Vercel, App Store Connect API, MCP</span></li></ul></div></div></article><article class="job"><div class="when">04/2017 – 02/2020</div><div class="what"><div class="job-head"><span class="co">CDS Global</span><span class="loc">Des Moines, IA</span><span class="dates">04/2017 – 02/2020</span></div><div class="role"><div class="role-head"><span class="title">Senior Web Developer</span></div><ul><li>Guided the move from WordPress to HubSpot after finding security vulnerabilities, improving security, SEO and SEM</li><li>Rebuilt the rebranded corporate websites and used HubDB to pull database content into the front end, cutting time spent on web changes</li><li>Built responsive, accessible pages, landing pages and HTML email campaigns that raised visits and leads; HubSpot certified (Inbound, Email Marketing, Growth-Driven Design)</li></ul></div></div></article><article class="job"><div class="when">06/2014 – 04/2017</div><div class="what"><div class="job-head"><span class="co">Integer Group</span><span class="loc">Des Moines, IA</span><span class="dates">06/2014 – 04/2017</span></div><div class="role"><div class="role-head"><span class="title">Web Developer</span></div><ul><li>Built and supported web applications, client websites, landing pages and HTML email at scale with PHP, MySQL, WordPress and Laravel</li><li>Guided UX in strategy meetings; checked SEO, cross-browser compatibility, responsiveness and accessibility on every project</li></ul></div></div></article><article class="job"><div class="when">08/2012 – 05/2014</div><div class="what"><div class="job-head"><span class="co">Colorado Access</span><span class="loc">Denver, CO</span><span class="dates">08/2012 – 05/2014</span></div><div class="role"><div class="role-head"><span class="title">Web Coordinator / Front-End Developer / Designer</span></div><ul><li>Designed and built two public websites (Joomla), restructured two benefits sites (Liferay), and built an LMS (Moodle + Joomla) and SQL reports with PHP, JSON and Google Charts</li></ul></div></div></article><article class="job"><div class="when">12/2010 – 04/2012</div><div class="what"><div class="job-head"><span class="co">AYSO</span><span class="loc">Torrance, CA</span><span class="dates">12/2010 – 04/2012</span></div><div class="role"><div class="role-head"><span class="title">Graphic Design and Digital Media Coordinator</span></div><ul><li>Published weekly news through the CMS with HTML/CSS, built pages for ayso.org, and designed print collateral for regional programs</li></ul></div></div></article></div></section>
+<section class="sec edu"><h2>Education</h2><div class="body"><div class="edu-row"><span class="co">The University of Iowa</span><span class="deg">B.F.A. in Graphic Design, Minor in Business</span><span class="loc">Iowa City, IA</span></div></div></section>
+</div></body></html>
